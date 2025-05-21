@@ -1,6 +1,6 @@
 [project]
 name = "bch-jots"
-version = "0.0.1"
+version = "0.0.2"
 description = "Jotfile management."
 readme = "README.md"
 authors = [{name = "Bryan Hann"}]
@@ -31,7 +31,7 @@ test = ["pytest==8.3.3"]
 ######################################################################
 
 [tool.bumpver]
-current_version = "0.0.1"
+current_version = "0.0.2"
 version_pattern = "MAJOR.MINOR.PATCH[-TAG]"
 commit_message = "bump version {old_version} -> {new_version}"
 tag_message = "{new_version}"

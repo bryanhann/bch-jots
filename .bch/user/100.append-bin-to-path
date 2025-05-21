@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-
-__append__  ${__bin__}

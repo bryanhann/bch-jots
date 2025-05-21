@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
 
-. $(dirname ${BASH_SOURCE[0]})/init/init.sh ${BASH_SOURCE[0]}
+__export() { export BCH_JOTS_${1}="${2}"; }
+__export _root $(dirname $(dirname ${BASH_SOURCE[0]}))
+__export _bin  ${BCH_JOTS__root}/.bch.bin
+unset __export
 
+:::linkall::: ${BCH_JOTS__bin}

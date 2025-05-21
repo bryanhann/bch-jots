@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-
-__verbose__ "# TRY REMOVING flag.verbose"

@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-
-. ${__dots__}/user/config.sh

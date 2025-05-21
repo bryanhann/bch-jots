@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+. $(dirname ${BASH_SOURCE[0]})/init/init.sh ${BASH_SOURCE[0]}
+

@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+__export__  d_TEMP  ${HOME}/.tmp/${__hyph__}.d
+__export__  f_FLAG  ${HOME}/.tmp/${__hyph__}.d/flag

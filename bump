@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+uv run pytest || {
+    echo my.bump: pytest failed
+    exit 1
+}
+[ .$1 == .--yes ] || echo are you sure?
+[ .$1 == .--yes ] || read
+[ .$1 == .--yes ] && shift
+uv run bumpver update -p "$@"

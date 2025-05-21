@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+echo ++[$0] "$@"
+echo
+echo THIS SCRIPT SHOULD BE MODIFIED
+echo
+echo --[$0] "$@"
+

@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+__export__  _root  ${__root__}
+__export__  _main  ${__bin__}/.${__hyph__}
+__export__  _bin   ${__bin__}
+__export__  _lib   ${__lib__}
+__export__  _tmp   ${__temp__}

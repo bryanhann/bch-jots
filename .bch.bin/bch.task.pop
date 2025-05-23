@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+bch.zjot new --short {task} {pop} $*
+
+# task.manage prompt

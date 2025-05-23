@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+bch.zjot new --short {task} {reset} $*
+
+# z.today | bch.task.manage prompt

@@ -1,21 +1,15 @@
-import click
+#!/usr/bin/env python3
+
+import typer
+import bch_jots.ui as ui
+cli = typer.Typer()
+
+@cli.command()
+def tasks():
+    ui.cmd_tasks()
+
+@cli.command()
+def all():
+    ui.cmd_all()
 
 
-@click.group()
-@click.version_option()
-def cli():
-    "Jotfile management."
-
-
-@cli.command(name="command")
-@click.argument(
-    "example"
-)
-@click.option(
-    "-o",
-    "--option",
-    help="An example option",
-)
-def first_command(example, option):
-    "Command description goes here"
-    click.echo("Here is some output")

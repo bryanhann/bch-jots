@@ -1,0 +1,23 @@
+20250523T085803 {zjot} {task} {reset} |  |
+20250523T085819 {zjot} {task} {reset} |  |
+20250523T090049 {zjot} {task} {reset} |  |
+20250523T090102 {zjot} {task} {push} | fruit |
+20250523T090112 {zjot} {task} {push} | apple |
+20250523T090118 {zjot} {task} {push} | pie |
+20250523T090124 {zjot} {task} {pop} |  |
+20250523T090136 {zjot} | hello |
+20250523T090148 {zjot} {task} {push} | juice |
+20250523T090154 {zjot} {task} {pop} |  |
+20250523T090204 {zjot} {task} {pop} |  |
+20250523T090216 {zjot} {task} {push} | cars |
+20250523T090236 {zjot} {task} {push} | beetle |
+20250523T090242 {zjot} {task} {pop} |  |
+20250523T090247 {zjot} {task} {pop} |  |
+20250523T090251 {zjot} {task} {pop} |  |
+20250523T090332 {zjot} | note this has | many | lines
+20250523T090112 {zjot} {task} {push} | coding deedoo |
+20250523T090116 {zjot} {task} {push} | documenting feature |
+20250523T090117 {zjot} {task} {push} | doc push |
+20250523T090118 {zjot} | note this has | many | lines
+20250523T090217 {zjot} {task} {pop} | foo bar | apple banana
+

@@ -5,4 +5,4 @@ __export _root $(dirname $(dirname ${BASH_SOURCE[0]}))
 __export _bin  ${BCH_JOTS__root}/.bch.bin
 unset __export
 
-:::linkall::: ${BCH_JOTS__bin}
+bch:000:linkall ${BCH_JOTS__bin}

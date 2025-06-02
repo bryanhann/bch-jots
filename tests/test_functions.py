@@ -1,16 +1,15 @@
 #!/usr/bin/env python3
-from common import STANDARD, LINE, PARTS, OPENER, JOTS
-import datetime
-from pathlib import Path
+import common as FIX
 
 import pytest
 
-import bch_jots.lib.klasses as klasses
+import bch_jots.lib.current as current
+import bch_jots.lib.things as things
 
 
 def test_names4line():
-    assert klasses.names4line(LINE) == "zjot task push".split()
+    assert things.names4line(FIX.LINE) == "zjot task push".split()
 
 def test_prompt4jots():
-    assert klasses.prompt4jots(JOTS) == "coding-deedoo|documenting-feature"
+    assert current.prompt4jots(FIX.JOTS) == "coding-deedoo|documenting-feature"
 

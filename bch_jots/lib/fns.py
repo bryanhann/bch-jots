@@ -1,11 +1,19 @@
 #!/usr/bin/env python3
-import os
 import subprocess
 from functools import cache
+@cache
+def lines4cmd(cmd):
+    import subprocess
+    cmd = cmd.split()
+    a = subprocess.run(cmd, capture_output=True, text=True)
+    return a.stdout.split('\n')
+
+
+import os
+import itertools
 import sys
 import datetime
 import inspect
-import itertools
 from pathlib import Path
 
 NOW = datetime.datetime.now()
@@ -46,9 +54,9 @@ def dt4line(line): return dt4stamp(stamp4line(line))
 
 
 
-import bch_jots.lib.klasses as KLASSES
+#import bch_jots.lib.klasses as KLASSES
 
-jots4pth = KLASSES.jots4pth
+#jots4pth = KLASSES.jots4pth
 #from bch_jots.lib.klasses import jots4pth
 
 @cache

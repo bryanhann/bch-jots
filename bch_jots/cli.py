@@ -2,6 +2,7 @@
 
 import typer
 import bch_jots.ui as ui
+
 cli = typer.Typer()
 
 @cli.command()
@@ -11,5 +12,10 @@ def tasks():
 @cli.command()
 def all():
     ui.cmd_all()
+
+@cli.command()
+def setprompt():
+    ui.cmd_setprompt()
+
 
 

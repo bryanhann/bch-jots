@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+z.today | bch.task.manage.py "$@"
+bch.task.manage.py prompt
